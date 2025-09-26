@@ -17,6 +17,10 @@ internal enum class PatchList(
         "Disable screenshot popup",
         "Adds an option to disable the popup that appears when taking a screenshot."
     ),
+    FILTER_POSTS_BY_FLAIR(
+        "Filter posts by flair",
+        "Adds an option to filter posts containing certain flairs when scrolling on the main page."
+    ),
     HIDE_RECENTLY_VISITED_SHELF(
         "Hide Recently Visited shelf",
         "Adds an option to hide the Recently Visited shelf in the sidebar."

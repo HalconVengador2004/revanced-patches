@@ -5,6 +5,7 @@ import static java.lang.Boolean.TRUE;
 
 import app.revanced.extension.shared.settings.BaseSettings;
 import app.revanced.extension.shared.settings.BooleanSetting;
+import app.revanced.extension.shared.settings.StringSetting;
 
 public class Settings extends BaseSettings {
     // Ads
@@ -14,6 +15,8 @@ public class Settings extends BaseSettings {
 
     // Layout
     public static final BooleanSetting DISABLE_SCREENSHOT_POPUP = new BooleanSetting("revanced_disable_screenshot_popup", TRUE, true);
+    public static final BooleanSetting FILTER_POSTS_BY_FLAIR = new BooleanSetting("revanced_filter_posts_by_flair", FALSE, true);
+    public static final StringSetting FILTER_POSTS_BY_FLAIR_LIST = new StringSetting("revanced_filter_posts_by_flair_list", "");
     public static final BooleanSetting HIDE_CHAT_BUTTON = new BooleanSetting("revanced_hide_chat_button", FALSE, true);
     public static final BooleanSetting HIDE_CREATE_BUTTON = new BooleanSetting("revanced_hide_create_button", FALSE, true);
     public static final BooleanSetting HIDE_DISCOVER_BUTTON = new BooleanSetting("revanced_hide_discover_button", FALSE, true);
